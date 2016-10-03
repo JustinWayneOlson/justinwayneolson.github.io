@@ -1,7 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-
 html,body{
  font-family: 'BebasRegular';
    width:100%;
@@ -52,12 +51,14 @@ p{
    width:120px;
    font-size:30px;
 }
+
 .navigation li:hover,.active{
    font-size:30px;
    cursor:pointer;
    width:100px!important;
    font-weight:bold;
 }
+
 .envatologo{
    position:fixed;
    top:50%;
@@ -67,6 +68,7 @@ p{
    margin-left:-223px;
    z-index:1;
 }
+
 .slide{
    background-attachment: fixed;
    width:100%;
@@ -74,12 +76,14 @@ p{
    position: relative;
    box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);
 }
+
 .wrapper{
    width:960px;
    height:200px;
    margin:0 auto;
    position:relative;
 }
+
 .slideno{
    position:absolute;
    bottom:0px;
@@ -88,6 +92,7 @@ p{
    font-weight:bold;
    color:rgba(255,255,255,0.3);
 }
+
 .button{
    display:block;
    width:25px;
@@ -98,6 +103,7 @@ p{
    background-color:#333333;
    background-image:url(../images/arrow.png);
 }
+
 .button:hover{
    background-color:#494949;
    cursor:pointer;
@@ -109,7 +115,6 @@ p{
    padding-right:20%;
    height:90%;
 }
-
 
 .skill {
     border: 2px solid #50a9d1;
@@ -129,21 +134,25 @@ p{
 }
 
 #slide1{
-   background-color:#CFB87C;
+   background-image:url("../images/background1.jpg")
    
 }
+
 #slide2{
    background-image:url("../images/campus3.jpg")
    
 }
+
 #slide3{
-   background-color:#b6c10b;
+   background-image:url("../images/background3.jpg")
 }
+
 #slide4{
-   background-color:#ADD8E6;
+   background-image:url("../images/background4.jpg")
 }
+
 #slide5{
-   background-color:#ccbadc;
+   background-image:url("../images/background5.jpg")
 }
 
 
