@@ -33,6 +33,14 @@
       .jumbotron{
          padding:2rem 1rem;
       }
+      #previous{
+         float:left;
+         padding-left:1em;
+      }
+      #next{
+         padding-right:1em;
+         float: right;
+      }
       h4{
          font-weight:bold;
       }
@@ -275,7 +283,9 @@
          PDFObject.embed("resume.pdf", "#resume-pdf");
          $('.work-slides').slick({'appendArrows':'#arrow-container'});
          $('.slick-prev').append("<img src='images/left_arrow.png' class='icon'></img>");
+         $('#arrow-container').append("<h4 id='previous'>Previous</h4>");
          $('.slick-next').append("<img src='images/right_arrow.png' class='icon'></img>");
+         $('#arrow-container').append("<h4 id='next'>Next</h4>");
       });
 
    </script>
