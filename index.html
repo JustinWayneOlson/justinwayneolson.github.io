@@ -1,21 +1,44 @@
 <head>
-<title>Justin Olson</title>
+   <title>Justin Olson</title>
 
-<link rel="stylesheet" type="text/css" href="css/reset-min.css">
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="css/pbstyle.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script src="js/scrolling.js"></script>
-<script src="js/jquery.stellar.min.js"></script>
-<script src="js/waypoints.min.js"></script>
-<script src="js/jquery.easing.1.3.js"></script>
-<script src="js/jquery.min.js"></script>
-<script src="js/tether.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/pdfobject.js"></script>
+   <link rel="stylesheet" type="text/css" href="css/reset-min.css">
+   <link rel="stylesheet" type="text/css" href="css/slick-1.6.0/slick/slick.css"/>
+   <link rel="stylesheet" type="text/css" href="css/slick-1.6.0/slick/slick-theme.css">
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" type="text/css" href="css/pbstyle.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+   <script src="js/scrolling.js"></script>
+   <script src="js/jquery.stellar.min.js"></script>
+   <script src="js/waypoints.min.js"></script>
+   <script src="js/jquery.easing.1.3.js"></script>
+   <script src="js/jquery.min.js"></script>
+   <script src="js/tether.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/pdfobject.js"></script>
+   <script src="js/slick.min.js"></script>
+   <style>
+      .thumbnail-lg{
+         height:15em;
+      }
+      .thumbnail-sm{
+         height:10em;
+      }
+      .thumbnail-xs{
+         height:3em;
+      }
+      .icon{
+         height:1em;
+      }
+      .jumbotron{
+         padding:2rem 1rem;
+      }
+      h4{
+         font-weight:bold;
+      }
+   </style>
 
-</head>
+   </head>
 
 <body>
       <ul class="navigation">
@@ -76,7 +99,7 @@
                         <span class='skill'>Matlab</span>
                      </li>
                      <li>
-                        Scientific Visulisation
+                        Scientific Visualization
                         <span class='skill'>Python</span>
                      </li>
 
@@ -97,18 +120,121 @@
 
 	<div class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="0.5">
       <div class='text-container'>
-         <div class='display-4'><u> Projects </u> </div>
+         <div class='display-4'><u> Projects</u></div>
+         <div class='row'>
+            <div class='col-xs-6'>
+               <div class='jumbotron'>
+                  <a href='http://www.equip.ninja'><h2>EQUIP</h2></a>
+                  <img src='images/equip_thumbnail.png' class='thumbnail-lg'></img>
+               </div>
+            </div>
+            <div class='col-xs-6'>
+               <div class='jumbotron'>
+                  <a href='http://cufcq.com/ratemybuffs'><h2>RateMyBuffs</h2></a>
+                  <img src='images/rmb.png' class='thumbnail-lg'></img>
+               </div>
+            </div>
+         <div class='row'>
+            <div class='col-xs-4'>
+               <div class='jumbotron'>
+                  <a href='https://github.com/daniel-noland/MemoryOracle'><h2>Memory Oracle</h2></a>
+                  <img src='images/memory_oracle.png' class='thumbnail-sm'></img>
+               </div>
+            </div>
+            <div class='col-xs-4'>
+               <div class='jumbotron'>
+                  <a href='https://github.com/JustinWayneOlson/alexa-letsCookFood'><h2>Alexa-LetsCookFood</h2></a>
+                  <img src='images/lcf.png' class='thumbnail-sm'></img>
+               </div>
+            </div>
+            <div class='col-xs-4'>
+               <div class='jumbotron'>
+                  <a href='http://www.popsci.com/skateboard-folds-half'><h2>Flappy Board</h2></a>
+                  <img src='images/fb.png' class='thumbnail-sm'></img>
+               </div>
+            </div>
+         </div>
+         </div>
       </div>
-		<div class="wrapper">
-
-		</div>
 		<a class="button" data-slide="4" title=""></a>
 
 	</div>
 
 	<div class="slide" id="slide4" data-slide="4" data-stellar-background-ratio="0">
       <div class='text-container'>
-         <div class='display-4'><u> Work Expierience </u> </div>
+         <div class='display-4'><u> Work Experience </u> </div>
+         <div class='jumbotron work-slides'>
+            <div id='page1'>
+               <div class='row'>
+                  <div class='col-xs-9'><h4>Seagate Technology</h4></div>
+                  <div class='col-xs-3'>Summer 2016</div>
+                  <div class='col-xs-9'>Software Engineering Intern</div>
+                  <div class='col-xs-3'>Longmont, CO</div>
+               </div>
+               <br>
+               <p>As an intern for the Systems Integrated Engineering department at Seagate, I worked on two main projects. The first was writing scripts to perform static code analysis for their in house scripting language which most closely resembled C. My next project was to create a more efficient way for the firmware testing engineers to interface with the test logs. To do this I wrote a python program that parsed out the large JSON log files, into a PostgreSQL database. On top of that using a Python Tornado server, I wrote an API for users to access common functionality of the database through HTTP get and post requests. Using the API I then wrote a web application that could be used to build complex and robust SQL queries, and return the data as a downloadable excel file.</p>
+
+               <span class='skill'>Python</span>
+               <span class='skill'>BASH</span>
+               <span class='skill'>C</span>
+               <span class='skill'>PostgreSQL</span>
+               <span class='skill'>HTML</span>
+               <span class='skill'>CSS</span>
+               <span class='skill'>Javascript</span>
+            </div>
+            <div id='page2'>
+               <div class='row'>
+                  <div class='col-xs-9'><h4>University of Colorado</h4></div>
+                  <div class='col-xs-3'>Fall 2015 - Fall 2016</div>
+                  <div class='col-xs-9'>Research Assistant</div>
+                  <div class='col-xs-3'>Boulder, CO</div>
+               </div>
+               <br>
+               <p>
+                  After a successful hackathon project involving instructor and course surveys, I began working as a research assistant at CU. The original project was to build a new system to replace CU's FCQ (Faculty Course Questionnaire) system. This is the primary way departments collect data from students about their opinions of professors, and courses. The idea is if the department has a relatively good idea of what the voice of the student population wants, they can make changes to curriculum and professors to meet those needs. However due to many many flaws in the system this is not how it works. I began working alongside a senior project team designing a better system that actually gives students a voice.
+               </p>
+               <p>
+                  Once the design stages were done, while still keeping tabs to make sure all of the issues I wanted to address were addressed, I shifted to a different project. I developed a classroom research focused application called EQUIP. It is a tool for researchers, and teachers to observe and document learning environments. Working with one other partner we decided on a Javascript framework called Meteor JS, as it had the simplicity we needed for this kind of project. After kicking it off at a hackathon at the University of Pennsylvania and having a rough app to show, we were able to get funding to continue working on it for almost a year with the interest it was gathering.
+               </p>
+               <span class='skill'>Javascript</span>
+               <span class='skill'>HTML</span>
+               <span class='skill'>CSS</span>
+               <span class='skill'>MongoDB</span>
+            </div>
+            <div id='page3'>
+               <div class='row'>
+                  <div class='col-xs-9'><h4>Echostar</h4></div>
+                  <div class='col-xs-3'>Summer 2015</div>
+                  <div class='col-xs-9'>Software Engineering Intern</div>
+                  <div class='col-xs-3'>Englewood, CO</div>
+               </div>
+               <br>
+               <p>At my internship with Echostar, I worked in the Embedded Systems department working on a prototype DVR. The project I was on was in the very early development stages, and I was responsible for the research and development of the filesystem used. The DVR was essentially just a very basic Linux machine, however the goal was to record up to 16 channels simultaneously. When it pushes 4K video this is a truly massive amount of data that needs to be written. I worked on software that could replicate use case scenarios for the box, and tested a wide range of file-systems in order to determine what would be the fastest, and most stable for this kind of application. After this I wrote a BASH script to parse the results into a presentable format, and provide some data visualization.</p>
+               <p>Echostar also sponsored a high school robotics competition which I mentored. I helped instruct a group of roughly 20 kids, most freshman or sophomores, on the basics of robotics. The students were given a series of goals to complete in a given amount of time, and a kit with everything they needed to build a robot from the ground up. Mentoring the students from the design process, to the machining and watching them complete the challenges was the most rewarding part of my internship.</p>
+               <span class='skill'>Python</span>
+               <span class='skill'>BASH</span>
+               <span class='skill'>C</span>
+            </div>
+            <div id='page4'>
+               <div class='row'>
+                  <div class='col-xs-9'><h4>University of Colorado</h4></div>
+                  <div class='col-xs-3'>Spring 2015 - Present</div>
+                  <div class='col-xs-9'>Learning Assistant and Course Assistant</div>
+                  <div class='col-xs-3'>Boulder, CO</div>
+               </div>
+               <br>
+               <p>
+                  A Learning Assistant is an undergrad approved by the professor teaching the course, and the department, to hold office hours weekly and tutor students. My LA experience began the spring semester of my sophomore year. The first class I helped with was CSCI-1300 Intro to Computer Science. The truly best way to learn anything is to teach it. Most of the students would have questions that could be immediately answered, but I learned a lot from the questions that took some research. I instructed on Python, C++, IDE's and text editors, BASH, linux, and virtual enviornments, as well as generic best coding practices.
+               </p>
+               <p>
+                  The LA program soon evolved into what is now the Course Assistant program. Students are selected the same way, however now professors can utilize us for additional tasks such as review sessions, course plans, and anonymous grading. With the change of the program I began helping as a CA for CSCI-2270 Data Structures. This is the second course in the CS curriculum, and is known as the weed out class for CS students. Here there are a mix of students who barely scraped by intro by copying their friends homeworks, and students that never even had to open the textbook. The office hours are utilized 10 fold. Instead of helping a couple of students a day with 1300, now I am helping up to 10 students at a time with material I wasn't as comfortable with. Teaching so many students taught me about how to learn.
+               </p>
+               <span class='skill'>Python</span>
+               <span class='skill'>BASH</span>
+               <span class='skill'>C++</span>
+            </div>
+         </div>
+         <div class='jumbotron' id='arrow-container'></div>
       </div>
 
       <a class="button" data-slide="5" title=""></a>
@@ -125,8 +251,12 @@
 	</div>
 
    <script>
-
-      PDFObject.embed("resume.pdf", "#resume-pdf");
+      $(document).ready(function(){
+         PDFObject.embed("resume.pdf", "#resume-pdf");
+         $('.work-slides').slick({'appendArrows':'#arrow-container'});
+         $('.slick-prev').append("<img src='images/left_arrow.png' class='icon'></img>");
+         $('.slick-next').append("<img src='images/right_arrow.png' class='icon'></img>");
+      });
 
    </script>
 </body>
