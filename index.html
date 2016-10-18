@@ -18,17 +18,25 @@
    <script src="js/pdfobject.js"></script>
    <script src="js/slick.min.js"></script>
    <style>
+      .image-container{
+         width:95%;
+         margin:0 auto;
+      }
       .thumbnail-lg{
-         height:15em;
+         width:100%;
       }
       .thumbnail-sm{
-         height:10em;
+         width:100%;
       }
       .thumbnail-xs{
          height:2.5em;
       }
       .icon{
          height:1em;
+      }
+      .project-container
+      {
+         width: 80%;
       }
       .jumbotron{
          padding:2rem 1rem;
@@ -131,9 +139,11 @@
          <div class='display-4'><u> Projects</u></div>
          <div class='row'>
             <div class='col-xs-6'>
-               <div class='jumbotron'>
+               <div class='jumbotron project-container'>
                   <a href='http://www.equip.ninja'><h2>EQUIP</h2></a>
-                  <img src='images/equip_thumbnail.png' class='thumbnail-lg'></img>
+                  <div class='image-container'>
+                     <img src='images/equip_thumbnail.png' class='thumbnail-lg'></img>
+                  </div>
                   <span class='skill'>Javascript</span>
                   <span class='skill'>HTML</span>
                   <span class='skill'>CSS</span>
@@ -141,9 +151,11 @@
                </div>
             </div>
             <div class='col-xs-6'>
-               <div class='jumbotron'>
+               <div class='jumbotron project-container'>
                   <a href='http://cufcq.com/ratemybuffs'><h2>RateMyBuffs</h2></a>
-                  <img src='images/rmb.png' class='thumbnail-lg'></img>
+                  <div class='image-container'>
+                     <img src='images/rmb.png' class='thumbnail-lg'></img>
+                  </div>
                   <br>
                   <span class='skill'>Javascript</span>
                   <span class='skill'>HTML</span>
@@ -153,9 +165,11 @@
             </div>
          <div class='row'>
             <div class='col-xs-4'>
-               <div class='jumbotron'>
+               <div class='jumbotron project-container'>
                   <a href='https://github.com/daniel-noland/MemoryOracle'><h2>Memory Oracle</h2></a>
-                  <img src='images/memory_oracle.png' class='thumbnail-sm'></img>
+                  <div class='image-container'>
+                     <img src='images/memory_oracle.png' class='thumbnail-sm'></img>
+                  </div>
                   <span class='skill'>Javascript</span>
                   <span class='skill'>HTML</span>
                   <span class='skill'>CSS</span>
@@ -165,9 +179,11 @@
                </div>
             </div>
             <div class='col-xs-4'>
-               <div class='jumbotron'>
+               <div class='jumbotron project-container'>
                   <a href='https://github.com/JustinWayneOlson/alexa-letsCookFood'><h2>Alexa-LetsCookFood</h2></a>
-                  <img src='images/lcf.png' class='thumbnail-sm'></img>
+                  <div class='image-container'>
+                     <img src='images/lcf.png' class='thumbnail-sm'></img>
+                  </div>
                   <span class='skill'>Javascript</span>
                   <span class='skill'>HTML</span>
                   <span class='skill'>CSS</span>
@@ -176,9 +192,11 @@
                </div>
             </div>
             <div class='col-xs-4'>
-               <div class='jumbotron'>
+               <div class='jumbotron project-container'>
                   <a href='http://www.popsci.com/skateboard-folds-half'><h2>Flappy Board</h2></a>
-                  <img src='images/fb.png' class='thumbnail-sm'></img>
+                  <div class='image-container'>
+                     <img src='images/fb.png' class='thumbnail-sm'></img>
+                  </div>
                </div>
             </div>
          </div>
